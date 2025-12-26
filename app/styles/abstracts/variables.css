@@ -1,0 +1,115 @@
+@theme {
+  /* Fonts */
+  --font-geologica: 'Geologica', sans-serif;
+  --font-googleSansFlex: 'Google Sans Flex', sans-serif;
+  --font-googleSansCode: 'Google Sans Code', monospace;
+
+/* ================================ 
+    Text Colors
+==================================*/
+   --color-text-heading:#212529;
+   --color-text-subtext:#343A40;
+   --color-card-title:#090D12;
+   --color-batch-title:#0047B0;
+   --color-batch-fill:#EDF3FA;
+
+   --color-primary:#0054C0;
+   
+  /* ==================================
+       Border
+  =====================================*/
+  /* gray */
+  --color-gray-50: #f9f9fa;
+  --color-gray-100: #f7f7f8;
+  --color-gray-200: #eeeef1;
+  --color-gray-300: #e6e6ea;
+  --color-gray-400: #dedee3;
+  --color-gray-500: #d5d5dc;
+  --color-gray-600: #ccccd4;
+  --color-gray-700: #9393a4;
+  --color-gray-800: #606071;
+  --color-gray-900: #2f2f37;
+  --color-gray-950: #17171c;
+
+  /**************************** Semantic color variables *****************************/
+   --color-light-border: #E2E2E2;
+   --color-darker-border:#A4A7DF;
+
+  /* ########################################################### Typography ###################################################### */
+
+  /* font weight */
+  --font-weight-light: 900; 
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+
+   /* font size Desktop*/
+  --text-vxs:12px;
+  --text-xs: 14px;
+  --text-sm: 16px;
+  --text-md: 18px;
+  --text-lg: 20px; 
+  --text-xl: 25px;
+  --text-2xl: 31px;
+  --text-3xl: 39px; 
+  --text-4xl: 48px; 
+  --text-5xl: 58px; 
+
+  /* font size tablet */
+  --text-xs-t:14px;
+  --text-sm-t:15px;
+  --text-md-t:16px;
+  --text-lg-t:17px;
+  --text-xl-t:20px;
+  --text-2xl-t:24px;
+  --text-3xl-t:30px;
+  --text-4xl-t:38px;
+  --text-5xl-t:48px;
+
+  /* font size mobile */
+  --text-xs-m:14px;
+  --text-sm-m:15px;
+  --text-md-m:16px;
+  --text-lg-m:18px;
+  --text-xl-m:21px;
+  --text-2xl-m:24px;
+  --text-3xl-m:28px;
+  --text-4xl-m:34px;
+  --text-5xl-m:35px;
+
+  /* line-height desktop */
+  --line-height-xs:1.42;
+  --line-height-sm:1.48;
+  --line-height-md:1.56;
+  --line-height-lg:1.2;
+  --line-height-xl:1.2;
+  --line-height-2xl:1.2;
+  --line-height-3xl:1.2;
+  --line-height-4xl:1.2;
+  --line-height-5xl:1.2;
+
+  /* line height tablet */
+  --line-height-xs-t:1.42;
+  --line-height-sm-t:1.42;
+  --line-height-md-t:1.48;
+  --line-height-lg-t:1.2;
+  --line-height-xl-t:1.2;
+  --line-height-2xl-t:1.2;
+  --line-height-3xl-t:1.2;
+  --line-height-4xl-t:1.2;
+  --line-height-5xl-t:1.2;
+
+  /* line height mobile */
+  --line-height-xs-m:1.42;
+  --line-height-sm-m:1.42;
+  --line-height-md-m:1.48;
+  --line-height-lg-m:1.2;
+  --line-height-xl-m:1.2;
+  --line-height-2xl-m:1.2;
+  --line-height-3xl-m:1.2;
+  --line-height-4xl-m:1.2;
+  --line-height-5xl-m:1.2;
+}

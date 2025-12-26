@@ -1,0 +1,155 @@
+@media (max-width: 768px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+  }
+  .section-padding {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .empowering-g-section .thumbnail-vedio-wrapper {
+    height: initial !important;
+  }
+  .image-wrapper {
+    height: auto !important;
+  }
+
+  /* font size  */
+
+
+  .text-sm {
+    font-size: var(--text-sm-m);
+  }
+ 
+  .text-md{
+    font-size:var(--text-md-m) ;
+  }
+  .text-lg{
+    font-size:var(--text-lg-m);
+  }
+  .text-xl{
+    font-size:var(--text-xl-m) ;
+  }
+  .text-2xl{
+    font-size:var(--text-2xl-m) ;
+  }
+  .text-3xl{
+    font-size: var(--text-3xl-m);
+  }
+  .text-4xl{
+    font-size:var(--text-4xl-m);
+  }
+  .text-5xl{
+    font-size:var(--text-5xl-m);
+  }
+
+  /* line height for all device  */
+
+  .line-height-xs {
+    line-height: var(--line-height-xs-m) !important;
+  }
+  .line-height-sm {
+    line-height: var(--line-height-sm-m) !important;
+  }
+  .line-height-md {
+    line-height: var(--line-height-md-m) !important;
+  }
+  .line-height-lg {
+    line-height: var(--line-height-lg-m) !important;
+  }
+  .line-height-xl {
+    line-height: var(--line-height-xl-m) !important;
+  }
+  .line-height-2xl {
+    line-height: var(--line-height-2xl-m) !important;
+  }
+  .line-height-3xl {
+    line-height: var(--line-height-3xl-m) !important;
+  }
+  .line-height-4xl {
+    line-height: var(--line-height-4xl-m) !important;
+  }
+  .line-height-5xl {
+    line-height: var(--line-height-5xl-m) !important;
+  }
+
+   /**********************************************************
+   ***********************************************************/
+   .course-detail-section .course-banner-wrapper .banner-image .overlay{
+    display: none;
+   }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 900px;
+  }
+
+  /* font size  */
+
+
+  .text-sm {
+    font-size: var(--text-sm-t);
+  }
+ 
+  .text-md{
+    font-size:var(--text-md-t) ;
+  }
+  .text-lg{
+    font-size:var(--text-lg-t);
+  }
+  .text-xl{
+    font-size:var(--text-xl-t) ;
+  }
+  .text-2xl{
+    font-size:var(--text-2xl-t) ;
+  }
+  .text-3xl{
+    font-size: var(--text-3xl-t);
+  }
+  .text-4xl{
+    font-size:var(--text-4xl-t);
+  }
+  .text-5xl{
+    font-size:var(--text-5xl-t);
+  }
+
+  /* line height for all device  */
+
+  .line-height-xs {
+    line-height: var(--line-height-xs-t) !important;
+  }
+  .line-height-sm {
+    line-height: var(--line-height-sm-t) !important;
+  }
+  .line-height-md {
+    line-height: var(--line-height-md-t) !important;
+  }
+  .line-height-lg {
+    line-height: var(--line-height-lg-t) !important;
+  }
+  .line-height-xl {
+    line-height: var(--line-height-xl-t) !important;
+  }
+  .line-height-2xl {
+    line-height: var(--line-height-2xl-t) !important;
+  }
+  .line-height-3xl {
+    line-height: var(--line-height-3xl-t) !important;
+  }
+  .line-height-4xl {
+    line-height: var(--line-height-4xl-t) !important;
+  }
+  .line-height-5xl {
+    line-height: var(--line-height-5xl-t) !important;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1000px;
+  }
+}
