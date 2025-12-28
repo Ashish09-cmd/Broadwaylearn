@@ -1,25 +1,22 @@
 import type { Metadata } from "next";
 import {Geist_Mono, Geologica, Google_Sans_Code, Google_Sans_Flex, Vazirmatn } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
+import LayoutClient from "./LayoutClient";
 
 export const googleSansFlex = Google_Sans_Flex({
   subsets: ["latin"],
   variable: "--font-googleSansFlex",
-  weight: ["300","400", "500", "600", "700", "800", "900"],
 });
 
 const geologica = Geologica ({
   variable: "--font-geologica",
   subsets: ["latin"],
-  weight: ["300","400", "500", "600", "700", "800", "900"],
+  fallback: ["serif"],
 })
 
 export const googleSansCode = Google_Sans_Code({
   subsets: ["latin"],
   variable: "--font-googleSansCode",
-  weight: ["300","400", "500", "600", "700", "800", ],
 });
 
 export const metadata: Metadata = {
@@ -33,13 +30,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">  
+    <html lang="en">
       <body
         className={`${googleSansFlex.variable} ${googleSansCode.variable} ${geologica.variable} antialiased`}
       >
-        <Header/>
-          <main>{children}</main>
-        <Footer/>
+        <LayoutClient>{children}</LayoutClient>
       </body>
     </html>
   );

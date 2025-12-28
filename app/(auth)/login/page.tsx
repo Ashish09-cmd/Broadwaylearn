@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function LoginPage() {
   return (
-    <div className="min-h-screen flex items-center justify-center  bg-primary">
+    <div className="flex items-center justify-center min-h-screen bg-primary py-20">
     <div className="flex items-center  gap-8 flex-col">
       <div>
         <Link href="/">
@@ -18,27 +18,27 @@ export default function LoginPage() {
         <p className="text-center text-sm font-regular  text-[#8D9296] mb-6">
           Access your courses and continue building your skills.
         </p>
-        <form className="space-y-4 mt-6">
+        <form className="flex flex-col gap-6">
           <div>
-            <label className="text-sm font-medium">Email Address</label>
+            <label className="text-sm font-regular font-googleSansFlex text-text-subtext ">Email Address</label>
             <input
               type="email"
-              placeholder="Enter your email address"
-              className="w-full border rounded-md px-4 py-2 mt-1 outline-none focus:border-primary"
+              placeholder="Enter your email address..."
+              className="w-full border  rounded-lg px-3 py-3  mt-1 outline-none "
             />
           </div>
 
           <div>
-            <label className="text-sm font-medium">Password</label>
+            <label className="text-sm font-regular font-googleSansFlex text-text-subtext ">Password</label>
             <input
               type="password"
-              placeholder="Enter your password"
-              className="w-full border rounded-md px-4 py-2 mt-1 outline-none focus:border-primary"
+              placeholder="Enter your password..."
+              className="w-full border rounded-md py-3 px-3 mt-1 outline-none "
             />
           </div>
 
-          <div className="text-right">
-            <Link href="/forgot-password" className="text-sm text-red-500">
+          <div className="">
+            <Link href="/forgot-password" className="text-sm text-red-500 underline ">
               Forgot Password?
             </Link>
           </div>
