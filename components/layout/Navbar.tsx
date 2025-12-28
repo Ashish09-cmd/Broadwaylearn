@@ -51,8 +51,8 @@ const Header = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-6">
               <div>
-                <Link href={"/"} className="logo">
-                  <img src="./logo.png" alt="" />
+                <Link href={"/"} className="logo cursor-pointer">
+                  <img src="./logo.png" alt=""/>
                 </Link>
               </div>
               <div className="flex-1">
@@ -238,10 +238,10 @@ const Header = () => {
             </div>
             <div className="flex items-center gap-6">
               <p className="text-sm font-regular font-googleSansFlex text-text-subtext">Teach With Us </p>
-              <button className="cursor-pointer py-2 px-4 rounded-lg border text-sm font-regular font-googleSansFlex border-primary text-primary ">
+              <Link href={'/login'} className="cursor-pointer py-2 px-4 rounded-lg border text-sm font-regular font-googleSansFlex border-primary text-primary ">
                 Log In
-              </button>
-              <button className="cursor-pointer py-2 px-4 rounded-lg text-sm font-regular font-googleSansFlex bg-primary text-white ">Sign Up</button>
+              </Link>
+              <Link href={'/signup'} className="cursor-pointer py-2 px-4 rounded-lg text-sm font-regular font-googleSansFlex bg-primary text-white ">Sign Up</Link >
             </div>
           </div>
         </div>

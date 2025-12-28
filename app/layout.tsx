@@ -38,8 +38,8 @@ export default function RootLayout({
         className={`${googleSansFlex.variable} ${googleSansCode.variable} ${geologica.variable} antialiased`}
       >
         <Header/>
-        <main>{children}</main>
-         <Footer/>
+          <main>{children}</main>
+        <Footer/>
       </body>
     </html>
   );
