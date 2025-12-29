@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import {Geist_Mono, Geologica, Google_Sans_Code, Google_Sans_Flex, Vazirmatn } from "next/font/google";
+import { Geologica, Google_Sans_Code, Google_Sans_Flex } from "next/font/google";
 import "./globals.css";
 import LayoutClient from "./LayoutClient";
 

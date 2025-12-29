@@ -8,7 +8,7 @@ export default function LoginPage() {
     <div className="flex items-center  gap-8 flex-col">
       <div>
         <Link href="/">
-          <img src="./login-logo.png" alt="" className="h-14 w-auto "/>
+          <img src="./login-logo.png" alt="" className="h-14 w-auto " loading="eager"/>
         </Link>
       </div>
       <div className="bg-white w-full max-w-md rounded-xl p-8 shadow-lg">

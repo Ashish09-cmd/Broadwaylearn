@@ -52,7 +52,7 @@ const Header = () => {
             <div className="flex items-center gap-6">
               <div>
                 <Link href={"/"} className="logo cursor-pointer">
-                  <img src="./logo.png" alt=""/>
+                  <img src="./logo.png" alt="" loading="eager"/>
                 </Link>
               </div>
               <div className="flex-1">
@@ -256,7 +256,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div>
             <Link href={"/"}>
-              <img src="./logo.png" alt="Logo" className="h-8.5  w-auto" />
+              <img src="./logo.png" alt="Logo" className="h-8.5  w-auto" loading="eager" />
             </Link>
           </div>
           <div className="flex items-center gap-3">

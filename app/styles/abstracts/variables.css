@@ -4,17 +4,26 @@
   --font-googleSansFlex: 'Google Sans Flex', sans-serif;
   --font-googleSansCode: 'Google Sans Code', monospace;
 
-/* ================================ 
-    Text Colors
-==================================*/
-   --color-text-heading:#212529;
-   --color-text-subtext:#343A40;
-   --color-card-title:#090D12;
-   --color-batch-title:#0047B0;
-   --color-batch-fill:#EDF3FA;
-
-   --color-primary:#0054C0;
+  /* Colors */
+  --color-primary: #0054C0; 
+  --color-text-heading: #212529;
+  --color-text-subtext: #343A40;
+  --color-card-title: #090D12;
+  --color-batch-title: #0047B0;
+  --color-batch-fill: #EDF3FA;
    
+  /* blue */
+  --color-blue-50: #EEF4FF;
+  --color-blue-100:#D9E6FF;  
+  --color-blue-200: #B3CDFF;
+  --color-blue-300: #8CB3FF;
+  --color-blue-400: #669AFF;
+  --color-blue-500:#3F80FF;
+  --color-blue-600: #1F68E0;
+  --color-blue-700:#0B5AD0;
+  --color-blue-800: #0054C0;
+  --color-blue-900: #003B8A;
+  --color-blue-950: #00265C;
   /* ==================================
        Border
   =====================================*/
@@ -57,6 +66,7 @@
   --text-3xl: 39px; 
   --text-4xl: 48px; 
   --text-5xl: 58px; 
+  --text-6xl: 62px;
 
   /* font size tablet */
   --text-xs-t:14px;
@@ -90,6 +100,7 @@
   --line-height-3xl:1.2;
   --line-height-4xl:1.2;
   --line-height-5xl:1.2;
+  --line-height-6xl:1.2;
 
   /* line height tablet */
   --line-height-xs-t:1.42;

@@ -73,6 +73,10 @@
   }
   .line-height-5xl {
     line-height: var(--line-height-5xl-m) !important;
+  } 
+
+  .line-height-6xl{
+    line-height: var(--line-height-6xl-m) !important;
   }
 
    /**********************************************************
@@ -144,6 +148,9 @@
   }
   .line-height-5xl {
     line-height: var(--line-height-5xl-t) !important;
+  }
+   .line-height-6xl {
+    line-height: var(--line-height-6xl-t) !important;
   }
 
 }

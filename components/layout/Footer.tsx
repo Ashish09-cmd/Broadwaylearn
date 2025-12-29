@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="container section-padding border-b border-darker-border">
             <div className="flex flex-col gap-6">
               <a href="/">
-                <img src="./flogo.png" alt="" className="h-13.5" />
+                <img src="./flogo.png" alt="broadwaylearn footer logo" className="h-13.5" loading="eager"/>
               </a>
               <nav>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8">

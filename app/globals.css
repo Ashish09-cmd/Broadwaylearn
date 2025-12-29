@@ -9,12 +9,8 @@
 @import "./styles/abstracts/variables.css";
 @import "./styles/abstracts/utilities.css";
 @import "./styles/abstracts/mixin.css";
-@import "./styles/layout/header.css";
-
-
-/* ================================
-   Base Styles
-================================ */
+@import "./styles/layout/header.css"; 
+@import "./styles/component/hero.css";
 
 html,
 body {
