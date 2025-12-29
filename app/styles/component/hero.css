@@ -27,7 +27,7 @@
  z-index: 2;
 }
 .hero-ellipse{
- animation: ellipseslide 1.5s ease-out 0.3s both;
+ animation: ellipseslide 1s ease-out 0.1s both;
 }
 
 .hero-banner-right .image-wrapper{
@@ -75,7 +75,7 @@
 }
 
 /* Keyframes for animations */
-@keyframes fadeInUp {
+/* @keyframes fadeInUp {
     0% {
         opacity: 0;
         transform: translateY(30px);
@@ -106,6 +106,6 @@
         opacity: 1;
         transform: translateX(0);
     }
-}
+} */
 
 

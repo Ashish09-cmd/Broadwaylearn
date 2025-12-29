@@ -17,12 +17,12 @@ export const Hero = () => {
                     </div>
                   </div>                   
                   <div className="flex-1 md:mt-6 hero-banner">
-                   <div className="hero-banner-right">
+                   <div className="hero-banner-right absolute right-0 h-full z-2">
                       <div className='image-wrapper'>
                         <img className='h-full w-full ' src="./assets/home/hero.png" alt="" />
                       </div>
                    </div>
-                   <div className='absolute -right-90 h-267.5 w-267.5 hero-ellipse rounded-full -top-73 ellipse p-56 bg-primary z-1'>
+                   <div className='absolute -right-90 h-267.5 w-267.5 hero-ellipse rounded-full -top-73 ellipse p-56 bg-[#0054C0F0] z-1'>
                         <div className="w-full h-full rounded-full bg-blue-50"></div>
                        </div>
                  </div>
