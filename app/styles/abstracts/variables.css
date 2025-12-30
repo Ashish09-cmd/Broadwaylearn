@@ -11,6 +11,8 @@
   --color-card-title: #090D12;
   --color-batch-title: #0047B0;
   --color-batch-fill: #EDF3FA;
+  --color-text-alternate:#7E7878;
+  --color-light-blue:#F5F8FD;
    
   /* blue */
   --color-blue-50: #E2E8F0;
@@ -62,7 +64,7 @@
   --text-md: 18px;
   --text-lg: 20px; 
   --text-xl: 25px;
-  --text-2xl: 31px;
+  --text-2xl: 32px;
   --text-3xl: 39px; 
   --text-4xl: 48px; 
   --text-5xl: 58px; 
