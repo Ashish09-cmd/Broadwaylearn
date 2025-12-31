@@ -5,7 +5,7 @@ const EnrollNow = () => {
   return (
        <section className='my-6.5'>
            <div className="max-w-338.5 mx-auto bg-light-blue py-12 rounded-2xl px-10">
-               <div className='flex items-center justify-between flex-wrap'>
+               <div className='flex items-center justify-between flex-wrap gap-6 '>
                   <div className='max-w-266'>
                      <p className='text-xl font-regular text-text-heading line-height-xl'>Start your journey with us today and unlock the essential skills, practical knowledge, and confidence you need to shape a future-ready career.</p>
                   </div>

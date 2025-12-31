@@ -356,7 +356,7 @@ const Header = () => {
 
       {/* Mobile Menu Sidebar */}
       <div
-        className={`fixed top-0 right-0 h-full bg-white z-50 transition-transform duration-300 ${
+        className={`fixed top-0 right-0 h-full bg-white z-99999 transition-transform duration-300 ${
           isMenuOpen ? "translate-x-0" : "translate-x-full"
         } w-4/5 md:w-2/5 `}
       >
