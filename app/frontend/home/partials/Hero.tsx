@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <>
       <section className="bg-[#0054C00A] hero-section relative overflow-hidden">
-          <div className="container ">
+          <div className="container py-12 md:py-0">
               <div className='flex items-center justify-between'>
                   <div className='flex-1'>
                     <div className='hero-content-wrapper'>
@@ -22,9 +22,9 @@ export const Hero = () => {
                         <img className='h-full w-full ' src="./assets/home/hero.png" alt="" />
                       </div>
                    </div>
-                   <div className='absolute -right-90 h-267.5 w-267.5 hero-ellipse rounded-full -top-73 ellipse p-56 bg-[#0054C0F0] z-1'>
+                   <div className='hidden md:block absolute -right-90 h-267.5 w-267.5 hero-ellipse rounded-full -top-73 ellipse p-56 bg-[#0054C0F0] z-1'>
                         <div className="w-full h-full rounded-full bg-blue-50"></div>
-                       </div>
+                    </div>
                  </div>
               </div>
           </div>

@@ -25,10 +25,10 @@ const DataandAiData=[
 
 const DataAndAiCourses = () => {
   return (
-    <section>
+    <section className='px-8 md:px-0'>
         <div className="container bg-blue-700 p-8 rounded-2xl">
            <div className="grid grid-cols-1 sm:grid-cols-12 gap-8">
-               <div className='col-span-3'>
+               <div className='md:col-span-3'>
                  <div className='flex flex-col gap-6'>
                     <div>
                          <h2 className='text-2xl font-bold text-white font-geologica line-height-2xl mb-2'>Data and AI Courses for you.</h2>
@@ -39,7 +39,7 @@ const DataAndAiCourses = () => {
                     </div>
                  </div>
                </div>
-               <div className='col-span-9'>
+               <div className='md:col-span-9'>
                   <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                     {DataandAiData.map((item)=>(
                      <div className='bg-white p-6 rounded-2xl flex flex-col gap-6' key={item.id}>

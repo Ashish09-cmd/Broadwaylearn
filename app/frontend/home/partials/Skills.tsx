@@ -1,3 +1,4 @@
+import { SkillsCoursData } from '@/app/api/skills/Data'
 import CoursesCard from '@/components/courses/CoursesCard'
 import React from 'react'
 
@@ -11,7 +12,9 @@ const Skills = () => {
             <p className='text-sm font-regular text-text-subtext '>Empowering minds with skills for tomorrow's AI-driven world</p>
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6'>
-                <CoursesCard/>
+               {SkillsCoursData.slice(0,4).map((course)=>(
+                <CoursesCard course={course} key={course.id}/>
+               ))}
             </div>
           </div>
         </div>

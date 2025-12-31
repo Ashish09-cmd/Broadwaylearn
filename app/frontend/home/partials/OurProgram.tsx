@@ -22,7 +22,7 @@ const OurProgram = () => {
       <section className="bg-light-blue">
         <div className="container section-padding">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6  items-center">
-            <div className="col-span-7">
+            <div className="sm:col-span-7">
               <div>
                 <h2 className="text-2xl font-semibold text-text-heading font-geologica line-height-2xl mb-4">
                   Get Certified, Get Ahead with Our Programs
@@ -53,7 +53,7 @@ const OurProgram = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-5">
+            <div className="sm:col-span-5">
               <img src="./assets/home/ourProgram.png" alt="" />
             </div>
           </div>
