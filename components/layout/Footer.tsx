@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -8,9 +9,9 @@ const Footer = () => {
         <div className="bg-text-heading ">
           <div className="container section-padding border-b border-darker-border">
             <div className="flex flex-col gap-6">
-              <a href="/">
+              <Link href="/">
                 <img src="./flogo.png" alt="broadwaylearn footer logo" className="h-13.5" loading="eager"/>
-              </a>
+              </Link>
               <nav>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8">
                 <div className="md:col-span-5 ">
@@ -83,9 +84,9 @@ const Footer = () => {
                 <div className="md:col-span-7">
                   <div className="grid grid-cols-1 md:grid-cols-3">
                     <div className="flex flex-col gap-2">
-                      <h6 className="font-geologica text-md font-bold text-white line-height-md">
+                      <h3 className="font-geologica text-md font-bold text-white line-height-md">
                         Company
-                      </h6>
+                      </h3>
                       <ul className="flex flex-col gap-2 ">
                         <li>
                           <a
@@ -122,9 +123,9 @@ const Footer = () => {
                       </ul>
                     </div>
                     <div className="flex flex-col gap-2">
-                      <h6 className="font-geologica text-md font-bold text-white line-height-md">
+                      <h3 className="font-geologica text-md font-bold text-white line-height-md">
                         For Students
-                      </h6>
+                      </h3>
                       <ul className="flex flex-col gap-2 ">
                         <li>
                           <a
@@ -161,9 +162,9 @@ const Footer = () => {
                       </ul>
                     </div>
                     <div className="flex flex-col gap-2">
-                      <h6 className="font-geologica text-md font-bold text-white line-height-md">
+                      <h3 className="font-geologica text-md font-bold text-white line-height-md">
                         Resources
-                      </h6>
+                      </h3>
                       <ul className="flex flex-col gap-2 ">
                         <li>
                           <a

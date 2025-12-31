@@ -45,7 +45,7 @@ const DataAndAiCourses = () => {
                      <div className='bg-white p-6 rounded-2xl flex flex-col gap-6' key={item.id}>
                          <div>
                             <div className='h-10 mb-2 relative'>
-                              <img src={item.image} className='h-full w-auto'/>
+                              <img src={item.image} alt='Courses Icon Image' className='h-full w-auto'/>
                             </div>
                             <h3 className='mb-2 text-lg font-bold text-card-title font-geologica'>{item.title}</h3>
                             <p className='text-xs font-regular text-text-alternate  line-height-xs'>{item.description}</p>
