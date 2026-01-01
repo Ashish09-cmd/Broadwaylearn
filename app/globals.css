@@ -3,6 +3,7 @@
 ================================ */
 @import "tailwindcss";
 
+
 /* ================================
    Project Styles
 ================================ */
@@ -30,4 +31,18 @@ body {
   margin: 0 auto;
   padding-right: 24px;
   padding-left: 24px;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-slide {
+  height: auto;
+}
+
+.slick-slide > div {
+  margin: 0 12px;
+  /* display: block; */
+  height: 100%;
 }

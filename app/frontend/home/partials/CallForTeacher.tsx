@@ -72,7 +72,6 @@ const CallForTeacher = () => {
                             <img src="https://broadwayinfosys.com/uploads/team-members/1750421019.jpg" alt="" className='h-full w-full object-cover' />
                          </div>
                      </div>
-                     
                 </div>
                <div className='flex flex-row items-end pt-36 justify-center text-center'>
                  
