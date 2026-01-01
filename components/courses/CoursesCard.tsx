@@ -20,16 +20,15 @@ export default function CoursesCard({
 }: Readonly<{course : ICourseCard}>){
    return (
     <>
-      <Link  href={'/'}>
-        <div className='p-4 rounded-lg  border cursor-pointer border-light-border '>
+      <div className='p-4 rounded-lg  border cursor-pointer border-light-border h-91.5'>
             <div className='flex flex-col gap-3'>
-                 <div className='relative overflow-hidden h-38 rounded-md'>
+                 <button className='relative border-none outline-none overflow-hidden h-38 rounded-md'>
                     <div className='card-overlay rounded-md '>
                     </div>
                     <img src={course.images} className='h-full w-full object-cover' alt="" loading='lazy'/>
                     <p className='flex items-center gap-1 text-vxs z-1 text-blue-50 absolute left-2 bottom-2'><Icon icon="material-symbols:nest-clock-farsight-analog-outline"></Icon><time>{course.duration}</time></p>
                     <div className='flex items-center gap-1 text-vxs font-medium  z-1 text-blue-50 absolute right-2 bottom-2'><Icon icon="streamline-block:other-ui-graph-2"></Icon><span>{course.course_type}</span></div>
-                 </div>
+                 </button>
                  <div>
                       <h3 className='mb-1 text-lg font-semibold text-text-heading line-height-lg line-clamp-3 font-geologica'>{course.title}</h3>
                       <h4 className='mb-2 text-vxs font-regular text-[#343A40A3]'>{course.instructor_name}</h4>
@@ -37,8 +36,7 @@ export default function CoursesCard({
                       <p className='text-md font-semibold text-text-subtext '>{course.price}</p>
                  </div>
             </div>
-        </div>
-    </Link>
+    </div>
     </>
    )
 }

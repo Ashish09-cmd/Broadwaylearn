@@ -11,6 +11,7 @@ export const SkillsCoursData : Array<ICourseCard>=[
         course_type:"Advanced",
         rated:"Highly Rated",
         instructor_name:"By Er. Sajan Kafle",
+        price:"Rs. 2000"
     },
     {
         id:2,
@@ -22,6 +23,7 @@ export const SkillsCoursData : Array<ICourseCard>=[
         course_type:"Advanced",
         rated:"Highly Rated",
         instructor_name:"By Er. Sajan Kafle",
+        price:"Rs. 2000"
     },
     {
         id:3,
@@ -33,6 +35,7 @@ export const SkillsCoursData : Array<ICourseCard>=[
         course_type:"Advanced",
         rated:"Highly Rated",
         instructor_name:"By Er. Sajan Kafle",
+        price:"Rs. 2000"
     },
     {
         id:4,
@@ -44,6 +47,7 @@ export const SkillsCoursData : Array<ICourseCard>=[
         course_type:"Advanced",
         rated:"Highly Rated",
         instructor_name:"By Er. Sajan Kafle",
+        price:"Rs. 2000"
     },
     {
         id:5,
@@ -55,6 +59,7 @@ export const SkillsCoursData : Array<ICourseCard>=[
         course_type:"Advanced",
         rated:"Highly Rated",
         instructor_name:"By Er. Sajan Kafle",
+        price:"Rs. 2000"
     },
     {
         id:6,
@@ -66,6 +71,7 @@ export const SkillsCoursData : Array<ICourseCard>=[
         course_type:"Advanced",
         rated:"Highly Rated",
         instructor_name:"By Er. Sajan Kafle",
+        price:"Rs. 2000"
     }
 
 ]

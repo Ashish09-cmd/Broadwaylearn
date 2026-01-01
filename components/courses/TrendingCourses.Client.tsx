@@ -23,26 +23,7 @@ const TrendingCoursesClient = () => {
     slidesToScroll: 1,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
-    responsive: [
-    {
-      breakpoint: 1280, // xl screens
-      settings: {
-        slidesToShow: 3,
-      },
-    },
-    {
-      breakpoint: 1024, // lg screens
-      settings: {
-        slidesToShow: 2,
-      },
-    },
-    {
-      breakpoint: 768, // md screens
-      settings: {
-        slidesToShow: 1,
-      },
-    },
-  ],
+    
   };
 
   return (
