@@ -1,6 +1,7 @@
 import { Icon } from '@iconify/react'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
+import Modal from '../ui/Modal'
 
 export interface ICourseCard{
     id:number;
@@ -18,11 +19,21 @@ export interface ICourseCard{
 export default function CoursesCard({
     course
 }: Readonly<{course : ICourseCard}>){
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const handleImageClick = () => {
+        setIsModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setIsModalOpen(false);
+    };
+
    return (
     <>
       <div className='p-4 rounded-lg  border cursor-pointer border-light-border h-91.5'>
             <div className='flex flex-col gap-3'>
-                 <button className='relative border-none outline-none overflow-hidden h-38 rounded-md'>
+                 <button className='relative border-none outline-none overflow-hidden h-38 rounded-md' onClick={handleImageClick}>
                     <div className='card-overlay rounded-md '>
                     </div>
                     <img src={course.images} className='h-full w-full object-cover' alt="" loading='lazy'/>
@@ -37,7 +48,17 @@ export default function CoursesCard({
                  </div>
             </div>
     </div>
+    <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
+        <div className="p-6">
+            <h2 className="text-2xl font-bold mb-4">{course.title}</h2>
+            <p className="text-lg mb-2"><strong>Instructor:</strong> {course.instructor_name}</p>
+            <p className="text-lg mb-2"><strong>Rated:</strong> {course.rated}</p>
+            <p className="text-lg mb-2"><strong>Description:</strong> {course.description}</p>
+            <p className="text-lg mb-2"><strong>Price:</strong> {course.price}</p>
+            <p className="text-lg mb-4"><strong>Learn Skills:</strong> {/* Add skills here if available */}</p>
+            <button className="bg-blue-500 text-white px-4 py-2 rounded">Add To Cart</button>
+        </div>
+    </Modal>
     </>
    )
 }
-
